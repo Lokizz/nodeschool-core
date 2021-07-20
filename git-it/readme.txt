@@ -1,1 +1,2 @@
-The file for section 'Commit To It'.
+The file for section 'Commit To It'
+
