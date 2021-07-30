@@ -1,11 +1,15 @@
 {
-  "name": "how-to-npm",
-  "version": "1.0.0",
-  "description": "Project to complete the how-to-npm tutorial.",
-  "main": "index.js",
+  "name": "@lokizz/loki-to-npm",
+  "version": "1.0.1",
+  "description": "Test project for how-to-npm tutorial.",
+  "main": "test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
+  },
+  "repository": {
+    "url": "http://localhost:15443/loki-to-npm"
   },
   "author": "Lokizz",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }
