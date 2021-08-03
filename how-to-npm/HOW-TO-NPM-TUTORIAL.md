@@ -45,4 +45,3 @@ After the update of your package, you should publish the package again.
 
 ## 14. Rm
 `npm rm <pkg>` is to delete the installed package.
-
