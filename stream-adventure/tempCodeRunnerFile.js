@@ -1,0 +1,1 @@
+fs.createReadStream('test.html').pipe(tr).pipe(process.stdout)

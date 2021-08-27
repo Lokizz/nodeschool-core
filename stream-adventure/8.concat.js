@@ -7,7 +7,5 @@ const concat = require('concat-stream')
 
 process.stdin
   .pipe(concat(body => {  // concat all buffers and give the result in callback
-    // const arr = Array.prototype.slice.call(body.toString())
-    // console.log(arr.reverse().join(''))
     process.stdout.write(body.toString().split('').reverse().join(''))
   }))
